@@ -12,7 +12,7 @@ const immersiveCover = document.getElementById('immersive-cover');
 const isLocal = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1';
 const API_BASE = isLocal
     ? 'http://localhost:3000'
-    : 'https://your-vercel-backend-url.vercel.app';
+    : 'https://aura-music-inky.vercel.app';
 
 // State
 let currentPlaylist = [];
