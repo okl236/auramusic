@@ -3,7 +3,7 @@ let defaultBase = '';
 if (host === 'localhost' || host === '127.0.0.1') {
     defaultBase = 'http://localhost:3000';
 } else if (host.indexOf('vercel.app') !== -1) {
-    defaultBase = 'https://aura-music-inky.vercel.app';
+    defaultBase = 'https://auramusic-odon.vercel.app';
 } else {
     defaultBase = '';
 }
