@@ -15,7 +15,7 @@ let API_BASE = '';
 if (isLocal) {
     API_BASE = 'http://localhost:3000';
 } else if (host.indexOf('vercel.app') !== -1) {
-    API_BASE = 'https://aura-music-inky.vercel.app';
+    API_BASE = 'https://auramusic-odon.vercel.app';
 } else {
     API_BASE = '';
 }
